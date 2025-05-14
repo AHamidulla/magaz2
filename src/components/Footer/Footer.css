@@ -1,0 +1,97 @@
+.footer {
+  padding: 77px 0;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  .foot1 {
+    display: flex;
+    .u1 {
+      display: flex;
+      flex-direction: column;
+      gap: 43px;
+      padding-right: 100px;
+      li {
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: rgba(123, 123, 123, 1);
+      }
+      .imgli {
+        display: flex;
+        gap: 20px;
+      }
+    }
+    .u2 {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      padding-right: 155px;
+      .mainli {
+        font-family: Ruberoid;
+        font-weight: 400;
+        font-size: 22.89px;
+        line-height: 100%;
+        letter-spacing: -2%;
+        color: rgba(0, 0, 0, 1);
+        padding-bottom: 18px;
+      }
+      li {
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: rgba(0, 0, 0, 1);
+      }
+    }
+    .u3 {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      padding-right: 128px;
+      .mainli {
+        font-family: Ruberoid;
+        font-weight: 400;
+        font-size: 22.89px;
+        line-height: 100%;
+        letter-spacing: -2%;
+        color: rgba(0, 0, 0, 1);
+        padding-bottom: 18px;
+      }
+      li {
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: rgba(0, 0, 0, 1);
+      }
+    }
+    .u4 {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      .mainli {
+        font-family: Ruberoid;
+        font-weight: 400;
+        font-size: 22.89px;
+        line-height: 100%;
+        letter-spacing: -2%;
+        color: rgba(0, 0, 0, 1);
+        padding-bottom: 18px;
+      }
+      li {
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: rgba(0, 0, 0, 1);
+      }
+    }
+  }
+}

@@ -1,0 +1,139 @@
+.header {
+  background-color: rgb(255, 255, 255);
+}
+.header__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.header__wrapper .top {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.header__wrapper .top h1 {
+  color: rgba(121, 121, 121, 1);
+  font-size: 14px;
+  padding: 14px 19px;
+}
+.header__wrapper .top img {
+  width: 14px;
+}
+
+.swipre {
+  position: relative;
+}
+.swipre .swiper {
+  width: 100%;
+  height: 94.2dvh;
+}
+.swipre .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swipre .swiper-slide .swiper-content {
+  background-image: url(./f1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.swipre .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swipre__wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.swipre__wrapper .menu {
+  padding-top: 30px;
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+}
+.swipre__wrapper .menu .ul111 {
+  display: flex;
+  gap: 25px;
+  font-size: 12.25px;
+  padding-right: 180px;
+  color: white;
+}
+.swipre__wrapper .menu .imm {
+  padding-right: 445px;
+}
+.swipre__wrapper .menu .ul222 {
+  display: flex;
+  gap: 20px;
+}
+.swiper-content {
+  padding-left: 10%;
+}
+.swiper-content h1 {
+  color: white;
+  font-size: 66px;
+  padding-top: 120px;
+  text-transform: uppercase;
+}
+.swiper-content button {
+  color: rgba(94, 94, 94, 1);
+  font-size: 14px;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 13px;
+  margin-top: 21px;
+}
+
+@media (max-width: 1200px) {
+  .swipre__wrapper .menu {
+    display: none;
+  }
+
+  .swiper-content h1 {
+    font-size: 55px;
+  }
+  .swiper-content button {
+    padding: 20px 30px;
+  }
+}
+@media (max-width: 947px) {
+  
+
+  .swiper-content h1 {
+    font-size: 45px;
+  }
+  .swiper-content button {
+    padding: 15px 25px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 384px) {
+  
+
+  .swiper-content h1 {
+    font-size: 35px;
+  }
+  .swiper-content button {
+    padding: 15px 25px;
+    font-size: 8px;
+    
+  }
+  .swipre .swiper-slide {
+    background-image: none;
+    background-image: url(./mob.png)!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+
+
+

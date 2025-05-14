@@ -1,0 +1,43 @@
+{
+  "gallery": [
+    { "id": 1, "image": "./foto1.png", "title": "одежда" },
+    { "id": 2, "image": "./foto2.png", "title": "обувь" },
+    { "id": 3, "image": "./foto3.png", "title": "аксессуары" },
+    { "id": 4, "image": "./foto4.png", "title": "сумки" },
+    { "id": 5, "image": "./foto5.png", "title": "для спорта" }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "tag": "pre-loved",
+      "image": "./sh3.png",
+      "brand": "Jacquemus",
+      "model": "Le Bambidou",
+      "price": "21 999₽"
+    },
+    {
+      "id": 2,
+      "tag": "NEW",
+      "image": "./sh2.png",
+      "brand": "Jacquemus",
+      "model": "Le Bambidou",
+      "price": "21 999₽"
+    },
+    {
+      "id": 3,
+      "tag": "-40%",
+      "image": "./sh1.png",
+      "brand": "Jacquemus",
+      "model": "Le Bambidou",
+      "price": "21 999₽"
+    },
+    {
+      "id": 4,
+      "tag": "hot",
+      "image": "./sh4.png",
+      "brand": "Jacquemus",
+      "model": "Le Bambidou",
+      "price": "21 999₽"
+    }
+  ]
+}

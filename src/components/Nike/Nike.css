@@ -1,0 +1,142 @@
+.nike {
+  padding-bottom: 80px;
+}
+
+.nike__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  .nike-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    h1 {
+      font-family: Ruberoid;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 53.72px;
+      letter-spacing: -2%;
+      text-align: center;
+      color: rgba(0, 0, 0, 1);
+    }
+  }
+}
+
+.main-img {
+  padding: 0 35px;
+}
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nike-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 95px;
+  ul {
+    display: flex;
+    gap: 20px;
+    li {
+      width: 387px;
+      height: 534px;
+      h1 {
+        color: white;
+        padding: 29px 0 0 29px;
+        font-family: Ruberoid;
+        font-weight: 400;
+        font-size: 22.99px;
+        line-height: 100%;
+        letter-spacing: -5%;
+        text-transform: uppercase;
+      }
+      .h0 {
+        padding-top: 469px;
+      }
+    }
+  }
+  .uu1 {
+    display: flex;
+    flex-direction: column;
+    gap: 239px;
+    padding-left: 65px;
+    padding-top: 58px;
+    width: 1200px;
+    height: 485px;
+    background-image: url(./s4.png);
+    p {
+      font-family: Inter;
+      font-weight: 400;
+      font-size: 26px;
+      line-height: 100%;
+      letter-spacing: -3%;
+      color: rgba(255, 255, 255, 1);
+    }
+    h1 {
+      font-family: Ruberoid;
+      font-weight: 400;
+      font-size: 60px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+}
+.ul1 {
+  background-image: url(./s1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ul2 {
+  background-image: url(./s2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ul3 {
+  background-image: url(./s3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width:1244px ) {
+  .uu1 {
+    width: 100% !important;
+    height: 10% !important;
+    overflow: hidden;
+    border-radius: 20px !important;
+  }
+  .img {
+    .line-1 {
+      display: none;
+    }
+  }
+}
+@media (max-width:858px ) {
+  .ull1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
+@media (max-width:510px ) {
+  .ull1 {
+    li {
+      width: 90%  !important;
+      border-radius: 20px;
+      font-size: 30px;
+    }
+  }
+  .uu1 {
+    
+    h1 {
+      font-size: 30px !important;
+      padding-bottom: 20px;
+    }
+  }
+  
+  
+}
